@@ -5,6 +5,9 @@ branding:
   icon: 'server'
   color: 'purple'
 inputs:
+  url:
+    description: 'GitLab URL'
+    required: true
   registration-token:
     description: 'Registration token'
     required: true
